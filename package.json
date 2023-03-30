@@ -10,10 +10,11 @@
   "dependencies": {
     "@apollo/client": "^3.7.10",
     "graphql": "^16.6.0",
+    "luxon": "^3.3.0",
     "react": "^18.2.0"
   },
   "devDependencies": {
-    "@cyclonedx/webpack-plugin": "^3.3.1",
+    "@cyclonedx/webpack-plugin": "^3.4.1-rc.1",
     "webpack": "^5.76.3",
     "webpack-cli": "^5.0.1"
   }

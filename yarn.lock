@@ -21,21 +21,21 @@
     tslib "^2.3.0"
     zen-observable-ts "^1.2.5"
 
-"@cyclonedx/cyclonedx-library@^1.4.0":
-  version "1.12.1"
-  resolved "https://pkgs.dev.azure.com/IOTESC/_packaging/Connected-Building-NPM/npm/registry/@cyclonedx/cyclonedx-library/-/cyclonedx-library-1.12.1.tgz#e5fd792e6fe90987a4594c851708dedf57964b0b"
-  integrity sha1-5f15Lm/pCYekWUyFFwje31eWSws=
+"@cyclonedx/cyclonedx-library@^1.13.2":
+  version "1.13.2"
+  resolved "https://registry.yarnpkg.com/@cyclonedx/cyclonedx-library/-/cyclonedx-library-1.13.2.tgz#c215a32e74e7f2b2b6c0848037d8a273ae0ee21f"
+  integrity sha512-acpRn9vNXVfuV1ngSfo+S0aCU97f2nEcMKAIwjFDHWb+izg5OQ02qj/+OC7+7XDrpSagmPDgz1OFo5zGCof3qw==
   dependencies:
     packageurl-js ">=0.0.6 <0.0.8 || ^1"
   optionalDependencies:
     xmlbuilder2 "^3.0.2"
 
-"@cyclonedx/webpack-plugin@^3.3.1":
-  version "3.3.1"
-  resolved "https://pkgs.dev.azure.com/IOTESC/_packaging/Connected-Building-NPM/npm/registry/@cyclonedx/webpack-plugin/-/webpack-plugin-3.3.1.tgz#1b5277a055c64b9336b68c0f7e6d47baa4bc58fa"
-  integrity sha1-G1J3oFXGS5M2towPfm1HuqS8WPo=
+"@cyclonedx/webpack-plugin@^3.4.1-rc.1":
+  version "3.4.1-rc.1"
+  resolved "https://registry.yarnpkg.com/@cyclonedx/webpack-plugin/-/webpack-plugin-3.4.1-rc.1.tgz#fbb193e5925263fb613db79209d1b63a5c7f8fdb"
+  integrity sha512-eFGH/CnC1hjPflluU26CD4rwTykfQIg+9pgl2w82ERhDE4LXv2eqsv3cCVrC5Gf+PpGpWBNKPdEb3Gp6IqcGLQ==
   dependencies:
-    "@cyclonedx/cyclonedx-library" "^1.4.0"
+    "@cyclonedx/cyclonedx-library" "^1.13.2"
     normalize-package-data "^3||^4||^5"
     xmlbuilder2 "^3.0.2"
 
@@ -654,6 +654,11 @@ lru-cache@^7.5.1:
   version "7.18.3"
   resolved "https://pkgs.dev.azure.com/IOTESC/_packaging/Connected-Building-NPM/npm/registry/lru-cache/-/lru-cache-7.18.3.tgz#f793896e0fd0e954a59dfdd82f0773808df6aa89"
   integrity sha1-95OJbg/Q6VSlnf3YLwdzgI32qok=
+
+luxon@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/luxon/-/luxon-3.3.0.tgz#d73ab5b5d2b49a461c47cedbc7e73309b4805b48"
+  integrity sha512-An0UCfG/rSiqtAIiBPO0Y9/zAnHUZxAMiCpTd5h2smgsj7GGmcenvrvww2cqNA8/4A5ZrD1gJpHN2mIHZQF+Mg==
 
 merge-stream@^2.0.0:
   version "2.0.0"
