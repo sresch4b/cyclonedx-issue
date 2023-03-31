@@ -1,7 +1,5 @@
 # cyclonedx-issue
-Example to force an error with cycloneDX: 
-
-Error: Invalid name: "@apollo/client/core"
+Example to reproduce an issue with cycloneDX, where the package "luxon" get lost: 
 
 
 ## Reproduce issue
