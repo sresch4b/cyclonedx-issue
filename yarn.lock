@@ -30,10 +30,10 @@
   optionalDependencies:
     xmlbuilder2 "^3.0.2"
 
-"@cyclonedx/webpack-plugin@^3.4.1-rc.1":
-  version "3.4.1-rc.1"
-  resolved "https://registry.yarnpkg.com/@cyclonedx/webpack-plugin/-/webpack-plugin-3.4.1-rc.1.tgz#fbb193e5925263fb613db79209d1b63a5c7f8fdb"
-  integrity sha512-eFGH/CnC1hjPflluU26CD4rwTykfQIg+9pgl2w82ERhDE4LXv2eqsv3cCVrC5Gf+PpGpWBNKPdEb3Gp6IqcGLQ==
+"@cyclonedx/webpack-plugin@^3.4.1":
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/@cyclonedx/webpack-plugin/-/webpack-plugin-3.4.1.tgz#54856a8451b041648a18cde7221f9d69c7a85e5a"
+  integrity sha512-F/xN895JskAXsAltp6hLS3zSjg+4d975qGjtjfGJaGGj+K2tUNO7F8pCn8D2EcdcuONmfItSl6g+ercgVjKzcw==
   dependencies:
     "@cyclonedx/cyclonedx-library" "^1.13.2"
     normalize-package-data "^3||^4||^5"
